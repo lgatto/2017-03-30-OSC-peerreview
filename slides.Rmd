@@ -1,0 +1,211 @@
+---
+title: 'The role of peer-reviewer in checking supporting information'
+author: "Laurent Gatto"
+output:
+  rmdshower::shower_presentation:
+    self_contained: false
+    katex: true 
+    ratio: 16x10
+---
+
+
+
+## The role of peer-reviewer in checking ~~supporting information~~ what matters
+
+```
+Laurent Gatto                      Computational Proteomics Unit
+https://lgatto.github.io           University of Cambridge
+lg390@cam.ac.uk                    @lgatt0
+```
+
+Slides: http://bit.ly/xxxxxx -- Blog post: 
+
+
+```
+```
+
+(Last update `r date()`)
+
+## About me
+
+* Have reviewed for Proteomics, Bioinformatics, BMC Genomics, BMC
+  Research Notes, Expert Reviews in Proteomics, Journal of Proteomics,
+  F1000Research, PeerJ, Journal of Open Research Software, Journal of
+  Proteome Research, ISMB/ECCB conference, MRC funding body.
+* By no means a highly regarded reference in peer review.
+* Good with data, data analysis and computer stuff.
+
+## My responsibility as a reviewer
+
+* Accept sound/valid research
+* Provide constuctive comments
+
+Hence
+
+- Focus firstly on the *validity* of the research by inspecting the
+  `data`, `software` and `method`. 
+- If the methods and/or data fail, the rest is meaningless.
+
+(I don't see novely, relevance, news-worthyness as my business as a
+reviewer. I leave that to the editor.)
+
+## The above implies that 
+
+Review can be **very** quick
+
+**If no data/software are available, there can't be any review.**
+
+Hence *open science* and *reproducible research* are essential: are
+data/software/method accessible, understandble, reproducible?
+
+## How much should we invest? (1)
+
+- As a reviewer, I commit to make a /reasonable effort/ to find the
+  data, understand it, install the software, run the software, debug
+  any issues, ...
+- I also know my strengths and weaknesses, and will react
+  accordingly. For example, I consider myself reasonably well skilled
+  in computational literacy. If I struggle to install and run the
+  software or understand the analysis, I will assume that many will
+  struggle too.
+
+## How much should we invest? (2)
+
+- Molecular biology is not a strength, and I will have to either read
+  some background, or acknowledge it explicitly.
+- Note that it's not only up to me (or, it shouldn't be). Modern
+  biology is multi-facetted, conducted by teams, and can't be expected
+  to be reviewed completely by a single person.
+
+## Low-hanging fruits (1): availability
+
+- no data, no review
+- no software, no review
+- no metadata, no rewiew
+- no reasonable methods, no review
+- impossible to reproduce any of it, no review
+
+Timing: 5 - 10 minutes
+
+## Constructive comments:
+
+- I didn't find any data, or partial data. I would have hoped to find
+  this and that, to be able to do ...
+- I did find data, but it wasn't annotated
+- I tried to analyse the data, managed this, failed at that
+- I tried to install the software, installed some undocumented
+  dependencies, got this error message, debugged doing this and that,
+  ...
+
+## Low-hanging fruits (2): do numbers match
+
+* Experimental design: 2 groups, 3 replicates, but 
+* Files: Not a mulitple of 6!
+
+## Low-hanging fruits (3): meta-data
+
+No need to necessarily repeat everything.
+
+But if I wanted to repeat the analysis, would I be able? Is something
+missing? What?
+
+Tip: Document everything in a `REAMDE` file.
+
+## Low-hanging fruits (4): what data, what format
+
+* Is it readable with standard and open/free software?
+* Raw data? Processed data? Summary table?
+* Do I understand how they got from raw to processed to summary?
+
+## Low-hanging fruit (5): license 
+
+If you share anything, make sure users are allowed to re-use it, and
+are aware of the terms under which they can re-use it.
+
+NB: Ask you default data repository about licensing. You might be
+surprised!
+
+## Quick survey
+
+- Is this asking too much?
+- Who would like to see this done systematically?
+- Who does this as they peer review activities?
+- The real question: who applies these expectations when they prepare
+  data for a paper?
+
+## Data/software citation
+
+As somebody who values data, software and methods, I will make every
+effort to make sure that these are cited when reviewing papers.
+
+## How to cite software/data
+
+- A paper describing the software
+- A DOI for the software (from [zenodo](https://zenodo.org/) or
+  [figshare](https://figshare.com/), for example)
+- If the anove fail, a software name, a developer and a URL are enough
+  to make a valid citation.
+  
+## Where to share data?
+
+Where to expect to find it?
+
+- academic curated subject-specific repository
+- general repos
+- institutional repositories (Apollo at this uni)
+- SI
+- personal webpage
+
+NB: There is no perfect solution, hence often a combination of the
+above is great.
+
+
+## What matters
+
+[FAIR principles](http://www.nature.com/articles/sdata201618):
+
+* Findable
+* Accessible
+* Interoperable
+* Reusable
+
+Why not SI: not FAIR, not discoverable, *not structured*, voluntary,
+SI used to bury stuff.
+
+## My ideal review system (1)
+
+From Chris Hartgenink, 14 March 2017,
+[OpenConCam](http://www.openconcam.org/)
+
+Biais in peer review:
+
+- Sampling biais (small number of reviewers)
+- Methods for statistically relevant results are positively
+  biased. Mixed results are regarded as of lower quality, rather than
+  only positive results.
+
+> 2 stage review: start with intro and methods, then results. 
+
+## My ideal review system (2)
+
+1. Submit you data to a repository, where it get's checked (by
+   specialists, data scientists, data curators) for quality,
+   annotation, meta-data.
+2. Submit you research with a link to the peer reviewed data. 
+
+## Automation
+
+* A lot of requirements in terms of data and meta-data could be
+  automated.
+* There is no unique fit in terms of data sharing - more is better:
+  raw, processed, summary, programmatic interface, GUI, ...
+* Sharing of data and analysis methods should ideally be reproducible,
+  possibly as software containers that include the data and the
+  complete computational environment.
+
+## Thank you 
+
+- For your attention
+- Discussions with Marta Teperek, Chris Hartgenink, Stephen Eglen.
+- [OpenConCam](http://www.openconcam.org/) group.
+
