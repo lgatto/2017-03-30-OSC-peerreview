@@ -213,3 +213,5 @@ Biais in peer review:
 - Discussions with Marta Teperek, Chris Hartgenink, Stephen Eglen.
 - [OpenConCam](http://www.openconcam.org/) group.
 
+The content of this repository is made available under the
+[Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/).
