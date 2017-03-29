@@ -7,9 +7,22 @@ Office of Scholarly Communication Training - [How to Get the Most Out of Modern 
 - Venue: Centre for Research in the Arts, Social Sciences and Humanities - S3 
 - Slides: view directly [here](http://bit.ly/20170329peerrev).
 
+### Citation
+
+Please cite as 
+
+*Laurent Gatto. The role of peer-reviewers in promoting open science
+(2017, March). lgatto/2017-03-30-OSC-peerreview
+v1.0. Zenodo. http://doi.org/10.5281/zenodo.439120*
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.439120.svg)](https://doi.org/10.5281/zenodo.439120)
+
+### License 
+
 The content of this repository is made available under the
 [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/). You
 are free to:
+
 
 * **Share** - copy and redistribute the material in any medium or format
 * **Adapt** - remix, transform, and build upon the material for any
