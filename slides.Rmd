@@ -16,12 +16,13 @@ https://lgatto.github.io           University of Cambridge
 lg390@cam.ac.uk                    @lgatt0
 ```
 
-Slides: http://bit.ly/20170329peerrev
+Slides: http://bit.ly/20170329peerrev  
+Source: https://github.com/lgatto/2017-03-30-OSC-peerreview
 
 ```
 ```
 
-(Last update `r date()`)
+![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.439120.svg) (Last update `r date()`)
 
 ## About me
 
