@@ -4,7 +4,7 @@ author: "Laurent Gatto"
 output:
   rmdshower::shower_presentation:
     self_contained: true
-    katex: true 
+    katex: false
     ratio: 16x10
 ---
 
@@ -53,10 +53,11 @@ reviewer. I leave that to the editor.)
 
 Review can be **very** quick
 
-**If no data/software are available, there can't be any review.**
+> **If no data/software are available, there can't be any review.**
 
-Hence *open science* and *reproducible research* are essential: are
-data/software/method accessible, understandble, reproducible?
+Are data/software/method accessible, understandable, reproducible? If
+so, we have done a big step towards *open science* and *reproducible
+research*.
 
 
 ## How much should we invest? (1)
@@ -75,25 +76,26 @@ data/software/method accessible, understandble, reproducible?
 - Molecular biology is not a strength, and I will have to either read
   some background, or acknowledge my weakness.
 - Note that it's not only up to me (or, it shouldn't be). Modern
-  biology is multi-facetted, conducted by teams, and can't be expected
+  biology is multi-faceted, conducted by teams, and can't be expected
   to be reviewed completely by a single person.
 
 ## Tips (1): availability
 
 - no data, no review
 - no software, no review
-- no metadata, no rewiew
-- no reasonable methods, no review
+- no meta-data, no review
+- no reasonable methods description, no review
 - impossible to reproduce any of it, no review
 
-Timing: 5 - 10 minutes
+Timing: 1 - 10 minutes
 
 ## Constructive comments
 
-- I didn't find any data, or partial data. I would have hoped to find
+- I didn't find any data, or partial data - I would have hoped to find
   this and that, to be able to do ...
-- I did find data, but it wasn't annotated
-- I tried to analyse the data, managed this, failed at that
+- I did find data, but it wasn't annotated - I would need ... to be
+  able to ...
+- I tried to analyse the data, managed this, failed at that.
 - I tried to install the software, installed some undocumented
   dependencies, got this error message, debugged doing this and that,
   ...
@@ -101,7 +103,9 @@ Timing: 5 - 10 minutes
 ## Tips (2): do numbers match?
 
 * Experimental design: 2 groups, 3 replicates, but 
-* Files: Not a mulitple of 6!
+* Files: Not a multiple of 6!
+   
+I also look at the file names; is there are consistent naming convention?
 
 ## Tips (3): meta-data
 
@@ -115,12 +119,11 @@ Tip: Document everything in a `README` file.
 ## Tips (4): what data, what format
 
 * Is it readable with standard and open/free software?
-* Raw data? Processed data? Summary table?
+* Raw data? Processed data? Summary table? (do numbers and names
+  match?)
 * Do I understand how they got from raw to processed to summary?
 
-(Remember tip 2 - do numbers match!)
-
-## Tip (5): license 
+## Tips (5): license 
 
 > Open science is not only about accessing outputs for free (as in
 > beer), but for free (as in speech), i.e. in a way that allows to
@@ -129,16 +132,24 @@ Tip: Document everything in a `README` file.
 If you share anything, make sure users are allowed to re-use it, and
 are aware of the terms under which they can re-use it.
 
+Examples: CC-BY, CC0, GPL, BSD, ...
+
 NB: Ask you default data repository about licensing. You might be
 surprised!
 
-## Quick survey
+## Quick survey (2)
 
 - Is this asking too much?
 - Who would like to see this done systematically?
 - Who does this as they peer review activities?
-- The real question: who applies these expectations when they prepare
-  data for a paper?
+
+## Quick survey (3)
+
+- Is this asking too much?
+- Who would like to see this done systematically?
+- Who does this as they peer review activities?
+
+> **The real question: who applies these principles when they prepare data?**
 
 ## Data/software citation
 
@@ -150,30 +161,31 @@ effort to make sure that these are cited when reviewing papers.
 - A paper describing the software/data
 - A DOI for the software (from [zenodo](https://zenodo.org/) or
   [figshare](https://figshare.com/), for example)
-- If the anove fail, a software name, a developer and a URL are enough
-  to make a valid citation.
+- If none of the above is available, a software name, a developer and
+  a URL are enough to make a valid citation.
   
-## Where to share data?
+## Where to share (find) data?
 
 Where to expect to find it? From best to least desirable:
 
-- academic curated subject-specific repository
-- general repos
-- institutional repositories (Apollo at this uni)
-- SI
-- personal webpage
+- **Subject-specific repository**
+- **General repos** ([zenodo](https://zenodo.org/), [figshare](https://figshare.com/), ...)
+- Institutional repositories ([Apollo](https://www.repository.cam.ac.uk/) here at the University)
+- SI 
+- Personal webpage 
 
 There is no perfect solution, often a combination of the above is great.
 
 
-## What matters
+## What matters in terms of data sharing
 
 [FAIR principles](http://www.nature.com/articles/sdata201618):
 
-* **Findable** and **Accessible** and **Interoperable** and **Reusable**
+> **Findable** and **Accessible** and **Interoperable** and **Reusable**
 
-Why not SI: not FAIR, not discoverable, *not structured*, voluntary,
-SI used to bury stuff.
+SI are not FAIR, not discoverable, *not structured*, voluntary, used
+to *bury stuff*. A personal web page is likely to disappear in the
+near future.
 
 ## My ideal review system (1)
 
@@ -191,17 +203,18 @@ Biais in peer review:
 
 ## My ideal review system (2)
 
-1. Submit you data to a repository, where it get's checked (by
+1. Submit your data to a repository, where it get's checked (by
    specialists, data scientists, data curators) for quality,
    annotation, meta-data.
-2. Submit you research with a link to the peer reviewed data. 
+2. Submit your research with a link to the peer reviewed data. 
 
 ## Automation
 
 * A lot of requirements in terms of data and meta-data could be
   automated.
 * There is no unique fit in terms of data sharing - more is better:
-  raw, processed, summary, programmatic interface, GUI, ...
+  raw, processed, summary; access through programmatic interface, GUI,
+  ...
 * Sharing of data and analysis methods should ideally be reproducible,
   possibly as software containers that include the data and the
   complete computational environment.
@@ -209,8 +222,9 @@ Biais in peer review:
 ## Thank you 
 
 - For your attention
-- Discussions with Marta Teperek, Chris Hartgenink, Stephen Eglen.
-- [OpenConCam](http://www.openconcam.org/) group.
+- Discussions with Marta Teperek, Chris Hartgenink, Stephen Eglen
+- [OpenConCam](http://www.openconcam.org/) group
+- [Office of Scholarly Communication](http://osc.cam.ac.uk/)
 
-The content of this repository is made available under the
+The content of these slides is made available under the
 [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/).
