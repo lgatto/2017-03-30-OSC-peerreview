@@ -1,16 +1,14 @@
 ---
-title: 'The role of peer-reviewer in checking supporting information'
+title: 'The role of peer-reviewers in checking supporting information'
 author: "Laurent Gatto"
 output:
   rmdshower::shower_presentation:
-    self_contained: false
+    self_contained: true
     katex: true 
     ratio: 16x10
 ---
 
-
-
-## The role of peer-reviewer in checking ~~supporting information~~ what matters
+## The role of peer-reviewers in ~~checking supporting information~~ promoting open science
 
 ```
 Laurent Gatto                      Computational Proteomics Unit
@@ -113,7 +111,7 @@ No need to necessarily repeat everything.
 But if I wanted to repeat the analysis, would I be able to? Is something
 missing? What?
 
-Tip: Document everything in a `REAMDE` file.
+Tip: Document everything in a `README` file.
 
 ## Tips (4): what data, what format
 
@@ -124,6 +122,10 @@ Tip: Document everything in a `REAMDE` file.
 (Remember tip 2 - do numbers match!)
 
 ## Tip (5): license 
+
+> Open science is not only about accessing outputs for free (as in
+> beer), but for free (as in speech), i.e. in a way that allows to
+> re-use.
 
 If you share anything, make sure users are allowed to re-use it, and
 are aware of the terms under which they can re-use it.
