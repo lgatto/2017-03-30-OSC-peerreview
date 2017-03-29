@@ -37,17 +37,20 @@ Slides: http://bit.ly/xxxxxx -- Blog post:
 
 ## My responsibility as a reviewer
 
-* Accept sound/valid research
-* Provide constuctive comments
+* **Accept sound/valid research** and **provide constuctive comments**
 
 Hence
 
-- Focus firstly on the *validity* of the research by inspecting the
-  `data`, `software` and `method`. 
-- If the methods and/or data fail, the rest is meaningless.
+* Focus firstly on the *validity* of the research by inspecting the
+  `data`, `software` and `method`. If the methods and/or data fail,
+  the rest is meaningless.
 
 (I don't see novely, relevance, news-worthyness as my business as a
 reviewer. I leave that to the editor.)
+
+## Quick survey
+
+- Is this asking too much from reviewers? 
 
 ## The above implies that 
 
@@ -58,26 +61,27 @@ Review can be **very** quick
 Hence *open science* and *reproducible research* are essential: are
 data/software/method accessible, understandble, reproducible?
 
+
 ## How much should we invest? (1)
 
-- As a reviewer, I commit to make a /reasonable effort/ to find the
+- As a reviewer, I commit to make a *reasonable effort* to find the
   data, understand it, install the software, run the software, debug
   any issues, ...
-- I also know my strengths and weaknesses, and will react
+- I also know my strengths and weaknesses, and will review
   accordingly. For example, I consider myself reasonably well skilled
-  in computational literacy. If I struggle to install and run the
+  in data analysis and software. If I struggle to install and run the
   software or understand the analysis, I will assume that many will
   struggle too.
 
 ## How much should we invest? (2)
 
 - Molecular biology is not a strength, and I will have to either read
-  some background, or acknowledge it explicitly.
+  some background, or acknowledge my weakness.
 - Note that it's not only up to me (or, it shouldn't be). Modern
   biology is multi-facetted, conducted by teams, and can't be expected
   to be reviewed completely by a single person.
 
-## Low-hanging fruits (1): availability
+## Tips (1): availability
 
 - no data, no review
 - no software, no review
@@ -87,7 +91,7 @@ data/software/method accessible, understandble, reproducible?
 
 Timing: 5 - 10 minutes
 
-## Constructive comments:
+## Constructive comments
 
 - I didn't find any data, or partial data. I would have hoped to find
   this and that, to be able to do ...
@@ -97,27 +101,29 @@ Timing: 5 - 10 minutes
   dependencies, got this error message, debugged doing this and that,
   ...
 
-## Low-hanging fruits (2): do numbers match
+## Tips (2): do numbers match?
 
 * Experimental design: 2 groups, 3 replicates, but 
 * Files: Not a mulitple of 6!
 
-## Low-hanging fruits (3): meta-data
+## Tips (3): meta-data
 
 No need to necessarily repeat everything.
 
-But if I wanted to repeat the analysis, would I be able? Is something
+But if I wanted to repeat the analysis, would I be able to? Is something
 missing? What?
 
 Tip: Document everything in a `REAMDE` file.
 
-## Low-hanging fruits (4): what data, what format
+## Tips (4): what data, what format
 
 * Is it readable with standard and open/free software?
 * Raw data? Processed data? Summary table?
 * Do I understand how they got from raw to processed to summary?
 
-## Low-hanging fruit (5): license 
+(Remember tip 2 - do numbers match!)
+
+## Tip (5): license 
 
 If you share anything, make sure users are allowed to re-use it, and
 are aware of the terms under which they can re-use it.
@@ -140,7 +146,7 @@ effort to make sure that these are cited when reviewing papers.
 
 ## How to cite software/data
 
-- A paper describing the software
+- A paper describing the software/data
 - A DOI for the software (from [zenodo](https://zenodo.org/) or
   [figshare](https://figshare.com/), for example)
 - If the anove fail, a software name, a developer and a URL are enough
@@ -148,7 +154,7 @@ effort to make sure that these are cited when reviewing papers.
   
 ## Where to share data?
 
-Where to expect to find it?
+Where to expect to find it? From best to least desirable:
 
 - academic curated subject-specific repository
 - general repos
@@ -156,18 +162,14 @@ Where to expect to find it?
 - SI
 - personal webpage
 
-NB: There is no perfect solution, hence often a combination of the
-above is great.
+There is no perfect solution, often a combination of the above is great.
 
 
 ## What matters
 
 [FAIR principles](http://www.nature.com/articles/sdata201618):
 
-* Findable
-* Accessible
-* Interoperable
-* Reusable
+* **Findable** and **Accessible** and **Interoperable** and **Reusable**
 
 Why not SI: not FAIR, not discoverable, *not structured*, voluntary,
 SI used to bury stuff.
