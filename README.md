@@ -5,9 +5,7 @@ Office of Scholarly Communication Training - [How to Get the Most Out of Modern 
 - Thu 30 Mar 2017
 - 10:00 - 17:30
 - Venue: Centre for Research in the Arts, Social Sciences and Humanities - S3 
-- Slides: view directly [here](https://rawgit.com/lgatto/2017-03-30-OSC-peerreview/master/slides.html)
-- Link direcly to these slides using
-  [http://bit.ly/20170329peerrev](http://bit.ly/20170329peerrev).
+- Slides: view directly [here](http://bit.ly/20170329peerrev).
 
 The content of this repository is made available under the
 [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/). You
