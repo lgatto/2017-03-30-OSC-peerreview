@@ -48,7 +48,7 @@ reviewer. I leave that to the editor.)
 
 ## Quick survey
 
-- Is this asking too much from reviewers? 
+> Reviewing data/software/methods: is this asking too much from reviewers? 
 
 ## The above implies that 
 

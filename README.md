@@ -19,6 +19,7 @@ v1.0. Zenodo. http://doi.org/10.5281/zenodo.439120*
 
 ### Changes since v1.0
 
+* Clarify initial query.
 * Files and columns columns matching the experimental design
 * I am an open scientist!
 * Added doi and citation
