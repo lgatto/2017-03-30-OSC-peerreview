@@ -17,6 +17,12 @@ v1.0. Zenodo. http://doi.org/10.5281/zenodo.439120*
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.439120.svg)](https://doi.org/10.5281/zenodo.439120)
 
+### Changes since v1.0
+
+* Files and columns columns matching the experimental design
+* I am an open scientist!
+* Added doi and citation
+
 ### License 
 
 The content of this repository is made available under the
