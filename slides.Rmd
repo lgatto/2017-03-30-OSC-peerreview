@@ -31,7 +31,7 @@ Source: https://github.com/lgatto/2017-03-30-OSC-peerreview
   F1000Research, PeerJ, Journal of Open Research Software, Journal of
   Proteome Research, ISMB/ECCB conference, MRC funding body.
 * By no means a highly regarded reference in peer review.
-* Good with data, data analysis and computer stuff.
+* Good with data, data analysis and computer stuff. Open scientist.
 
 ## My responsibility as a reviewer
 
