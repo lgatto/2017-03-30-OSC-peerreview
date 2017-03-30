@@ -104,7 +104,7 @@ Timing: 1 - 10 minutes
 ## Tips (2): do numbers match?
 
 * Experimental design: 2 groups, 3 replicates, but 
-* Files: Not a multiple of 6!
+* Data files or columns: not a multiple of 6!
    
 I also look at the file names; is there are consistent naming convention?
 
